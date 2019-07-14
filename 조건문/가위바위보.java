@@ -1,4 +1,4 @@
-package Á¶°Ç¹®;
+package ì¡°ê±´ë¬¸;
 
 import javax.swing.JFrame;
 import javax.swing.JButton;
@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
 import java.util.Random;
 import java.awt.event.ActionEvent;
 
-public class ±×·¡ÇÈÀÌ¹ÌÁö³Ö±â {
+public class ê·¸ë˜í”½ì´ë¯¸ì§€ë„£ê¸° {
 	private static JTextField textField;
 
 	public static void main(String[] args) {
@@ -25,20 +25,20 @@ public class ±×·¡ÇÈÀÌ¹ÌÁö³Ö±â {
        JButton buttom = new JButton("");
        b1.addActionListener(new ActionListener() {
        	public void actionPerformed(ActionEvent e) {
-           		System.out.println("¹ÙÀ§¸¦ ´©¸£¼Ì±º¿ä.");
+           		System.out.println("ë°”ìœ„ë¥¼ ëˆ„ë¥´ì…¨êµ°ìš”.");
            		int b1 = 1;
            		Random r = new Random();
-           		//0->°¡À§, 1->¹ÙÀ§, 2->º¸
+           		//0->ê°€ìœ„, 1->ë°”ìœ„, 2->ë³´
            		int computer = r.nextInt(3);
-           		System.out.println("»ç¶÷Àº"+b1+"À»"+" ÄÄÇ»ÅÍ´Â"+computer+"À» ³Â½À´Ï´Ù");
+           		System.out.println("ì‚¬ëŒì€"+b1+"ì„"+" ì»´í“¨í„°ëŠ”"+computer+"ì„ ëƒˆìŠµë‹ˆë‹¤");
            		if(computer == 1) {//
-           			buttom.setText("ºñ°åÀ½");
+           			buttom.setText("ë¹„ê²¼ìŒ");
            		}
            		else if(computer == 2) {
-           			buttom.setText("ÄÄÇ»ÅÍ½Â");
+           			buttom.setText("ì»´í“¨í„°ìŠ¹");
            			               		}
            		else {  				
-    				buttom.setText("³»°¡½Â");
+    				buttom.setText("ë‚´ê°€ìŠ¹");
            	}      		           		
      	}       	
        });
@@ -48,20 +48,20 @@ public class ±×·¡ÇÈÀÌ¹ÌÁö³Ö±â {
        
        a1.addActionListener(new ActionListener() {
        	public void actionPerformed(ActionEvent e) {
-       		System.out.println("°¡À§¸¦ ´©¸£¼Ì±º¿ä.");
+       		System.out.println("ê°€ìœ„ë¥¼ ëˆ„ë¥´ì…¨êµ°ìš”.");
        		int a1 = 0;
        		Random r = new Random();
-       		//0->°¡À§, 1->¹ÙÀ§, 2->º¸
+       		//0->ê°€ìœ„, 1->ë°”ìœ„, 2->ë³´
        		int computer = r.nextInt(3);
-       		System.out.println("»ç¶÷Àº"+a1+"À»"+" ÄÄÇ»ÅÍ´Â"+computer+"À» ³Â½À´Ï´Ù");
+       		System.out.println("ì‚¬ëŒì€"+a1+"ì„"+" ì»´í“¨í„°ëŠ”"+computer+"ì„ ëƒˆìŠµë‹ˆë‹¤");
        		if(computer == 0) {//
-       			buttom.setText("ºñ°åÀ½");
+       			buttom.setText("ë¹„ê²¼ìŒ");
        		}
        		else if(computer == 1) {
-       			buttom.setText("ÄÄÇ»ÅÍ½Â");
+       			buttom.setText("ì»´í“¨í„°ìŠ¹");
            		}
        		else {
-				buttom.setText("³»°¡½Â");
+				buttom.setText("ë‚´ê°€ìŠ¹");
        		}
        		
        	}
@@ -72,20 +72,20 @@ public class ±×·¡ÇÈÀÌ¹ÌÁö³Ö±â {
        
        o1.addActionListener(new ActionListener() {
        	public void actionPerformed(ActionEvent e) {
-       		System.out.println("º¸¸¦ ´©¸£¼Ì±º¿ä.");
+       		System.out.println("ë³´ë¥¼ ëˆ„ë¥´ì…¨êµ°ìš”.");
        		int o1 = 2;
        		Random r = new Random();
-       		//0->°¡À§, 1->¹ÙÀ§, 2->º¸
+       		//0->ê°€ìœ„, 1->ë°”ìœ„, 2->ë³´
        		int computer = r.nextInt(3);
-       		System.out.println("»ç¶÷Àº"+o1+"À»"+" ÄÄÇ»ÅÍ´Â"+computer+"À» ³Â½À´Ï´Ù");
+       		System.out.println("ì‚¬ëŒì€"+o1+"ì„"+" ì»´í“¨í„°ëŠ”"+computer+"ì„ ëƒˆìŠµë‹ˆë‹¤");
        		if(computer == 2) {//
-       			buttom.setText("ºñ°åÀ½");
+       			buttom.setText("ë¹„ê²¼ìŒ");
        		}
        		else if(computer == 0) {
-       			buttom.setText("ÄÄÇ»ÅÍ½Â");
+       			buttom.setText("ì»´í“¨í„°ìŠ¹");
            		}
        		else {
-				buttom.setText("³»°¡½Â");
+				buttom.setText("ë‚´ê°€ìŠ¹");
        		}
        		
        	}
@@ -95,7 +95,7 @@ public class ±×·¡ÇÈÀÌ¹ÌÁö³Ö±â {
        f.getContentPane().add(o1, BorderLayout.EAST);
        
        textField = new JTextField();
-       textField.setFont(new Font("±¼¸²", Font.PLAIN, 20));
+       textField.setFont(new Font("êµ´ë¦¼", Font.PLAIN, 20));
        textField.setForeground(new Color(0, 0, 0));
        textField.setBackground(Color.YELLOW);
        textField.setHorizontalAlignment(SwingConstants.CENTER);
@@ -103,7 +103,7 @@ public class ±×·¡ÇÈÀÌ¹ÌÁö³Ö±â {
        f.getContentPane().add(textField, BorderLayout.NORTH);
        textField.setColumns(10);
        
-       buttom.setFont(new Font("±¼¸²", Font.PLAIN, 20));
+       buttom.setFont(new Font("êµ´ë¦¼", Font.PLAIN, 20));
        f.getContentPane().add(buttom, BorderLayout.SOUTH);
        f.setVisible(true);
        
